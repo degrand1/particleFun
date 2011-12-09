@@ -7,8 +7,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Nathan DeGrand\Documents\GitHub\Manly-Mini-Games\current\particleFun\bin\x86\Debug\Content\circle.xnb</Output>
-      <Time>2011-12-07T20:03:26.7931167-06:00</Time>
+      <Output>C:\Users\Nathan\particleFun\bin\x86\Debug\Content\circle.xnb</Output>
+      <Time>2011-12-07T20:16:18.8161808-06:00</Time>
     </Item>
     <Item>
       <Source>diamond.png</Source>
@@ -16,8 +16,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Nathan DeGrand\Documents\GitHub\Manly-Mini-Games\current\particleFun\bin\x86\Debug\Content\diamond.xnb</Output>
-      <Time>2011-12-07T20:03:34.19354-06:00</Time>
+      <Output>C:\Users\Nathan\particleFun\bin\x86\Debug\Content\diamond.xnb</Output>
+      <Time>2011-12-07T20:16:18.8181809-06:00</Time>
     </Item>
     <Item>
       <Source>star.png</Source>
@@ -25,18 +25,54 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Nathan DeGrand\Documents\GitHub\Manly-Mini-Games\current\particleFun\bin\x86\Debug\Content\star.xnb</Output>
-      <Time>2011-12-07T20:03:41.7499722-06:00</Time>
+      <Output>C:\Users\Nathan\particleFun\bin\x86\Debug\Content\star.xnb</Output>
+      <Time>2011-12-07T20:16:18.8621834-06:00</Time>
+    </Item>
+    <Item>
+      <Source>red.png</Source>
+      <Name>red</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Nathan\particleFun\bin\x86\Debug\Content\red.xnb</Output>
+      <Time>2011-12-08T20:09:11.0444811-06:00</Time>
+    </Item>
+    <Item>
+      <Source>green.png</Source>
+      <Name>green</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Nathan\particleFun\bin\x86\Debug\Content\green.xnb</Output>
+      <Time>2011-12-08T20:09:29.0555113-06:00</Time>
+    </Item>
+    <Item>
+      <Source>blue.png</Source>
+      <Name>blue</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Nathan\particleFun\bin\x86\Debug\Content\blue.xnb</Output>
+      <Time>2011-12-08T20:09:35.6028858-06:00</Time>
+    </Item>
+    <Item>
+      <Source>sonic.jpg</Source>
+      <Name>sonic</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Nathan\particleFun\bin\x86\Debug\Content\sonic.xnb</Output>
+      <Time>2011-12-08T20:40:26.1587315-06:00</Time>
     </Item>
     <BuildSuccessful>true</BuildSuccessful>
     <Settings>
       <TargetPlatform>Windows</TargetPlatform>
       <BuildConfiguration>Debug</BuildConfiguration>
       <CompressContent>false</CompressContent>
-      <RootDirectory>C:\Users\Nathan DeGrand\Documents\GitHub\Manly-Mini-Games\current\particleFun\Content\</RootDirectory>
-      <LoggerRootDirectory>C:\Users\Nathan DeGrand\Documents\GitHub\Manly-Mini-Games\current\particleFun\</LoggerRootDirectory>
-      <IntermediateDirectory>C:\Users\Nathan DeGrand\Documents\GitHub\Manly-Mini-Games\current\particleFun\Content\obj\x86\Debug\</IntermediateDirectory>
-      <OutputDirectory>C:\Users\Nathan DeGrand\Documents\GitHub\Manly-Mini-Games\current\particleFun\bin\x86\Debug\Content\</OutputDirectory>
+      <RootDirectory>C:\Users\Nathan\particleFun\Content\</RootDirectory>
+      <LoggerRootDirectory>C:\Users\Nathan\particleFun\</LoggerRootDirectory>
+      <IntermediateDirectory>C:\Users\Nathan\particleFun\Content\obj\x86\Debug\</IntermediateDirectory>
+      <OutputDirectory>C:\Users\Nathan\particleFun\bin\x86\Debug\Content\</OutputDirectory>
     </Settings>
     <Assemblies>
       <Assembly>
@@ -65,7 +101,7 @@
       </Assembly>
       <Assembly>
         <Key>C:\Windows\assembly\GAC_32\Microsoft.Xna.Framework.Content.Pipeline\3.1.0.0__6d5c3888ef60e27d\Microsoft.Xna.Framework.Content.Pipeline.dll</Key>
-        <Value>2010-12-24T13:34:58.3619022-06:00</Value>
+        <Value>2011-12-07T20:30:11.7198202-06:00</Value>
       </Assembly>
     </Assemblies>
   </Asset>
