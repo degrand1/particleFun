@@ -19,6 +19,8 @@ namespace particleFun
         SpriteBatch spriteBatch;
         ParticleEngine particleEngine;
 
+        private bool visible = true;
+        private float scale = 1.0f;
         private Texture2D blue;
         private Texture2D green;
         private Texture2D red;
@@ -78,6 +80,22 @@ namespace particleFun
             greenAngle += greenSpeed;
             redAngle += redSpeed;
             */
+            KeyboardState keyboardState = Keyboard.GetState();
+            if (keyboardState.IsKeyDown(Keys.Up))
+            {
+                scale += 0.1f;
+                if (!visible)
+                    visible = true;
+            }
+            if (keyboardState.IsKeyDown(Keys.Down))
+            {
+                scale -= 0.1f;
+                if (scale <= 0.0f)
+                {
+                    scale = 0.1f;
+                    visible = false;
+                }
+            }
 
             base.Update(gameTime);
         }
@@ -111,10 +129,18 @@ namespace particleFun
             spriteBatch.Draw(green, center + greenPosition, Color.White);
             spriteBatch.Draw(red, center + redPosition, Color.White);*/
             spriteBatch.Draw(sonic, new Vector2(300, 140), new Color(10, 10, 10));
-            spriteBatch.Draw(blue, Location, Color.White);
-            spriteBatch.Draw(green, Location, Color.White);
-            spriteBatch.Draw(red, Location, Color.White);
-
+            //spriteBatch.Draw(blue, Location, Color.White);
+            //spriteBatch.Draw(green, Location, Color.White);
+            //spriteBatch.Draw(red, Location, Color.White);
+            if (visible)
+            {
+                spriteBatch.Draw(blue, Location, new Rectangle(0, 0, blue.Width, blue.Height), Color.White, 1.0f,
+                    Vector2.Zero, scale, SpriteEffects.None, 0.0f);
+                spriteBatch.Draw(red, Location, new Rectangle(0, 0, red.Width, red.Height), Color.White, 1.0f,
+                    Vector2.Zero, scale, SpriteEffects.None, 0.0f);
+                spriteBatch.Draw(green, Location, new Rectangle(0, 0, green.Width, green.Height), Color.White, 1.0f,
+                    Vector2.Zero, scale, SpriteEffects.None, 0.0f);
+            }
             spriteBatch.End();
 
             base.Draw(gameTime);
